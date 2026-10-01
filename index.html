@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SYNE Support</title>
+<meta name="description" content="Help and contact for SYNE, the iOS app that turns digital self-control into a physical action.">
+<style>
+  :root {
+    --bg: #050505; --text: #f5f5f5; --muted: #a6a6a6; --line: rgba(255,255,255,0.08);
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) { --bg: #ffffff; --text: #111111; --muted: #555555; --line: rgba(0,0,0,0.1); }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { margin-bottom: 32px; }
+  .brand { letter-spacing: 0.3em; font-size: 15px; color: var(--muted); }
+  h1 { font-size: 30px; font-weight: 600; margin: 8px 0 4px; }
+  h2 { font-size: 19px; font-weight: 600; margin: 32px 0 8px; }
+  h3 { font-size: 16px; font-weight: 600; margin: 20px 0 4px; }
+  p, li { color: var(--muted); }
+  strong { color: var(--text); font-weight: 600; }
+  nav { display: flex; gap: 16px; margin-top: 12px; flex-wrap: wrap; }
+  a { color: var(--text); }
+  .contact { font-size: 18px; }
+  section + section { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">SYNE</div>
+    <h1>Support</h1>
+    <p>SYNE turns digital self-control into a physical action.</p>
+    <nav><a href="#en">English</a><a href="#fr">Français</a><a href="privacy.html">Privacy Policy</a></nav>
+  </header>
+
+  <section id="en" lang="en">
+    <h2>Contact</h2>
+    <p class="contact"><a href="mailto:fabien2124@gmail.com">fabien2124@gmail.com</a></p>
+    <p>Questions, bugs, or no key yet? Write to me, I answer every message.</p>
+
+    <h2>How SYNE works</h2>
+    <p>Choose the apps that distract you, start a focus session, and your apps stay blocked until you hold your <strong>SYNE Key</strong> near your iPhone. Leave your key at home or in another room: to give in, you have to get up and go get it.</p>
+
+    <h2>Frequently asked questions</h2>
+    <h3>Which key can I use?</h3>
+    <p>Any simple NFC chip works: a sticker, a card or a key ring using NTAG213, NTAG215 or NTAG216.</p>
+    <h3>My key isn't detected</h3>
+    <p>Keep SYNE open and hold the key flat against the top edge of your iPhone, one key at a time. A thick case can get in the way.</p>
+    <h3>I lost my key</h3>
+    <p>On the Focus screen, open the ⋯ menu and choose Emergency Unlock: hold for 5 seconds, then your apps unlock after the delay you chose in Settings. Then register a new key in Keys.</p>
+    <h3>Will my apps stay blocked if SYNE is closed?</h3>
+    <p>Yes, and every session ends on time even if SYNE is closed: iOS lifts the block itself.</p>
+    <h3>Can SYNE see my apps or my data?</h3>
+    <p>No. Apple's Screen Time gives SYNE anonymous tokens, never the names of your apps. SYNE has no account and collects no data. See the <a href="privacy.html">Privacy Policy</a>.</p>
+    <h3>How do I stop using SYNE?</h3>
+    <p>End your session, then delete the app, or withdraw access in Settings › Screen Time.</p>
+  </section>
+
+  <section id="fr" lang="fr">
+    <h1>Assistance</h1>
+    <h2>Contact</h2>
+    <p class="contact"><a href="mailto:fabien2124@gmail.com">fabien2124@gmail.com</a></p>
+    <p>Une question, un bug, pas encore de clé ? Écris-moi, je réponds à chaque message.</p>
+
+    <h2>Comment fonctionne SYNE</h2>
+    <p>Choisis les apps qui te distraient, lance une session, et tes apps restent bloquées jusqu'à ce que tu approches ta <strong>SYNE Key</strong> de ton iPhone. Laisse ta clé chez toi ou dans une autre pièce : pour craquer, il faut te lever et aller la chercher.</p>
+
+    <h2>Questions fréquentes</h2>
+    <h3>Quelle clé utiliser ?</h3>
+    <p>Une simple puce NFC suffit : un autocollant, une carte ou un porte-clés en NTAG213, NTAG215 ou NTAG216.</p>
+    <h3>Ma clé n'est pas détectée</h3>
+    <p>Garde SYNE ouverte et pose la clé à plat contre le haut de ton iPhone, une clé à la fois. Une coque épaisse peut gêner.</p>
+    <h3>J'ai perdu ma clé</h3>
+    <p>Sur l'écran Focus, ouvre le menu ⋯ et choisis Déverrouillage d'urgence : maintiens 5 secondes, puis tes apps se débloquent après le délai choisi dans Réglages. Enregistre ensuite une nouvelle clé dans Clés.</p>
+    <h3>Mes apps restent-elles bloquées si SYNE est fermée ?</h3>
+    <p>Oui, et chaque session se termine à l'heure même si SYNE est fermée : iOS lève le blocage lui-même.</p>
+    <h3>SYNE voit-elle mes apps ou mes données ?</h3>
+    <p>Non. Temps d'écran d'Apple donne à SYNE des jetons anonymes, jamais le nom de tes apps. SYNE n'a pas de compte et ne collecte aucune donnée. Voir la <a href="privacy.html">politique de confidentialité</a>.</p>
+    <h3>Comment arrêter d'utiliser SYNE ?</h3>
+    <p>Termine ta session, puis supprime l'app, ou retire l'accès dans Réglages › Temps d'écran.</p>
+  </section>
+</main>
+</body>
+</html>
